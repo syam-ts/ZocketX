@@ -10,8 +10,7 @@ const ChatContainer = () => {
 
   
   const searchParams = new URLSearchParams(location.search);
-  const userId = searchParams.get('userId');
-  alert(userId)
+  const userId = searchParams.get('userId'); 
 
 const [selectedUser, setSelectedUser] = useState(null);
 
